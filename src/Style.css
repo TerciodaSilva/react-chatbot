@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, serif;
+  margin: 0;
+  background: #c9c5ba;
+}
+
+.Container {
+  margin-bottom: 100px;
+}
+
+.Profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.Message {
+  display: flex;
+  flex-direction: colunm;
+  align-items: center;
+  padding: 10px;
+}
+
+.Data {
+  margin: 0 10px 0 10px;
+  background: whitesmoke;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px;
+  max-width: 500px;
+  min-width: 200px;
+
+}
+
+.Time {
+  margin-top: -10px;
+  font-size: 8px;
+}
+
+.Input {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.Input {
+  margin: 0;
+  display: flex;
+  flex-direction: colunm;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 10px;
+}
+
+.Input input {
+  width: 60%;
+  height: 50px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  padding-left: 20px;
+}
+
+.Input button {
+  font-weight: bold;
+  color: white;
+  background: blue;
+  border: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 0 10px 10px 0;
+}
+
+.User {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: end;
+}
+
+.Bot .Time {
+  text-align: end;
+}
